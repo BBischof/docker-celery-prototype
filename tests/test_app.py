@@ -9,7 +9,7 @@ class MockEncodingResponse:
 
 
 def _mock_get(url):
-    assert url == "https://www.google.com"
+    assert url == "https://www.quasicoherentlabs.com"
     return MockEncodingResponse()
 
 '''overrides requests.get to mocked get function'''

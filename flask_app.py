@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/get_webpage")
 def get_page():
-    response = requests.get("https://www.google.com")
+    response = requests.get("https://www.quasicoherentlabs.com")
     return response.headers['Content-Encoding']
 
 if __name__ == "__main__":
